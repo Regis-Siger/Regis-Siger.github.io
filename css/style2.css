@@ -1,4 +1,4 @@
-/* ================================= 
+﻿/* ================================= 
   Base Element Styles
 ==================================== */
 
@@ -9,7 +9,7 @@
 body {
     font-family: 'Varela Round', sans-serif;
     line-height: 1.6;
-    color: #3a3a3a;
+    color: #093a58;
 }
 
 p {
@@ -20,7 +20,7 @@ p {
 h2,
 h3,
 a {
-    color: #093a58;
+    color: #ff6a00;
 }
 
 h2,
@@ -29,7 +29,7 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: wavy;
 }
 
 img {
@@ -49,12 +49,19 @@ td {
     vertical-align: middle;
 }
 
-figcaption {
+label {
+    color: #5428c4;
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+figcaption{
     font-size: .9em;
     line-height: 1;
-    color: #fff;
+    color: #00ff21;
     padding: 1em;
-    background: rgba(19, 43, 102, .85);
+    background: #808080;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -76,10 +83,10 @@ textarea {
     border: 1px solid #999;
 }
 
-    input:focus,
-    textarea:focus {
-        border-color: #000;
-    }
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
 
 textarea {
     vertical-align: top;
@@ -87,8 +94,9 @@ textarea {
 }
 
 .button {
-    padding-left: 90px;
+    padding-left: 90px; 
 }
+
 
 /* ================================= 
   Base Layout Styles
@@ -122,14 +130,15 @@ textarea {
 }
 
 .banner {
-    color: #fff;
-    background: #3acec2;
+    color: #ff0000;
+    background: #5428c4;
     padding: 3.2em 0;
     margin-bottom: 60px;
 }
 
 .main-footer {
-    background: #d9e4ea;
+    color: #ff0000;
+    background: #5428c4;
     padding: 2em 0;
     margin-top: 30px;
 }
